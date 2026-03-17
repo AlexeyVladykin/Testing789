@@ -51,7 +51,10 @@ def game(answer):
      answer = input("куда пойти (1-3): ")
      if answer == "1":
          questionOne()
-    
+     elif answer == "2":
+         questionTwo
+     elif answer == "3":
+         questionThree
 def main():     
     answer = ""
     game(answer)
